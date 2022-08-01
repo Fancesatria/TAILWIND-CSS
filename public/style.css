@@ -592,7 +592,7 @@ video {
 }
 
 .badge {
-  width: 5rem;
+  width: 6rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -631,11 +631,18 @@ video {
 }
 
 .chef-content {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .chef-content {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .sub-title {
@@ -818,12 +825,20 @@ video {
   height: 66.666667%;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
 
 .h-auto {
   height: auto;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
 }
 
 .w-2\/12 {
@@ -842,8 +857,8 @@ video {
   width: 83.333333%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
+.w-full {
+  width: 100%;
 }
 
 .w-5 {
@@ -989,6 +1004,11 @@ video {
   --tw-gradient-to: #fdba74;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1024,6 +1044,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1032,11 +1057,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pt-8 {
@@ -1049,14 +1069,6 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -1081,6 +1093,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1194,6 +1211,11 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 

@@ -21,7 +21,7 @@
             bg-gray300 rounded-full
             px-3 py-1 text-xs
             hover:bg-gray400
-            w-20 text-center
+            w-24 text-center
     }
     
     .main-title {
@@ -43,8 +43,8 @@
 
     .chef-content {
         @apply
-            font-semibold text-xl text-white
-            
+            font-semibold text-base text-white
+            md:text-xl
     }
 
     .sub-title {
@@ -71,7 +71,7 @@
             justify-center items-center
             text-center text-gray
             w-full min-h-[10rem]
-            mb-10 pl-10 pr-10 pt-5
+            mb-10 px-10 pt-5
             
     }
 
