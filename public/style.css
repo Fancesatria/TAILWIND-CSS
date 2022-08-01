@@ -631,8 +631,8 @@ video {
 }
 
 .chef-content {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   font-weight: 600;
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
@@ -793,6 +793,14 @@ video {
   margin-top: 10rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -837,8 +845,12 @@ video {
   height: auto;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
+.h-4 {
+  height: 1rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-2\/12 {
@@ -857,6 +869,10 @@ video {
   width: 83.333333%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -867,6 +883,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .flex-1 {
@@ -928,6 +948,14 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-full {
@@ -1059,6 +1087,10 @@ video {
   padding-right: 1rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -1090,9 +1122,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-base {
@@ -1213,8 +1245,22 @@ video {
     flex-direction: row;
   }
 
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }

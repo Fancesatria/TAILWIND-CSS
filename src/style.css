@@ -43,7 +43,7 @@
 
     .chef-content {
         @apply
-            font-semibold text-base text-white
+            font-semibold text-base text-white text-xs
             md:text-xl
     }
 
