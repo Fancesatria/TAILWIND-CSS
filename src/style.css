@@ -12,7 +12,7 @@
             bg-white text-gray
             w-72 min-h-[10rem]
             shadow-lg rounded-lg overflow-hidden
-            hover:bg-gray200
+            hover:bg-gray300 hover:text-black
             
     }
 
@@ -20,7 +20,7 @@
         @apply
             bg-gray300 rounded-full
             px-3 py-1 text-xs
-            hover:bg-gray400
+            hover:bg-gray400 hover:text-white
             w-24 text-center
     }
     

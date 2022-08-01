@@ -588,7 +588,9 @@ video {
 
 .card:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity));
 }
 
 .badge {
@@ -608,6 +610,8 @@ video {
 .badge:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
 }
 
 .card-title {
@@ -829,24 +833,16 @@ video {
   height: 83.333333%;
 }
 
-.h-4\/6 {
-  height: 66.666667%;
-}
-
 .h-56 {
   height: 14rem;
 }
 
-.h-5 {
-  height: 1.25rem;
+.h-4 {
+  height: 1rem;
 }
 
 .h-auto {
   height: auto;
-}
-
-.h-4 {
-  height: 1rem;
 }
 
 .w-32 {
@@ -869,24 +865,16 @@ video {
   width: 83.333333%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-5 {
-  width: 1.25rem;
+.w-4 {
+  width: 1rem;
 }
 
 .w-8 {
   width: 2rem;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .flex-1 {
@@ -933,6 +921,10 @@ video {
   gap: 2rem;
 }
 
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
 .gap-x-20 {
   -moz-column-gap: 5rem;
        column-gap: 5rem;
@@ -940,10 +932,6 @@ video {
 
 .gap-y-4 {
   row-gap: 1rem;
-}
-
-.gap-y-3 {
-  row-gap: 0.75rem;
 }
 
 .overflow-hidden {
@@ -1072,6 +1060,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1080,11 +1073,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pb-4 {
@@ -1226,10 +1214,6 @@ video {
   .sm\:w-3\/4 {
     width: 75%;
   }
-
-  .sm\:text-left {
-    text-align: left;
-  }
 }
 
 @media (min-width: 768px) {
@@ -1245,18 +1229,9 @@ video {
     flex-direction: row;
   }
 
-  .md\:text-left {
-    text-align: left;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .md\:text-lg {
